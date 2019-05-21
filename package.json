@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev-server": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "ext": "js",
+  "watch": ["server/src"],
+  "ignore": ["node_modules", "dist"],
+  "exec": "node --inspect=31006 server/src/index.js",
+  "env": {
+    "PORT": "32000",
+    "NODE_ENV": "development",
+    "RUNTIME_ENV": "dev",
+    "DEBUG": "express:*,config"
+  }
+}
